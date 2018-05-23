@@ -625,12 +625,12 @@ header {
 header>h1 {
   font-family: Skia;
   font-weight: normal;
-  color: #B10DC9;
+  color: #000000;
   margin: 0;
 }
 
 header>h1>a {
-  color: #B10DC9;
+  color: #000000;
   text-decoration: none;
 }
 

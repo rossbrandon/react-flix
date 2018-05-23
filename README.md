@@ -11,3 +11,10 @@ Please contribute, file issues, and make PRs. More than anything I'm sure there 
 MIT
 
 [gh-page]: http://btholt.github.io/complete-intro-to-react/
+
+## Notes
+
+If running Linux, you may need to run the following command in order for hot reload to work properly:
+```bash
+echo 100000 | sudo tee /proc/sys/fs/inotify/max_user_watches
+```
