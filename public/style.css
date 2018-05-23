@@ -7,9 +7,12 @@
  */
 
 html {
-  font-family: sans-serif; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /**
@@ -55,8 +58,10 @@ audio,
 canvas,
 progress,
 video {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
 }
 
 /**
@@ -254,9 +259,12 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit; /* 1 */
-  font: inherit; /* 2 */
-  margin: 0; /* 3 */
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
 }
 
 /**
@@ -288,11 +296,15 @@ select {
  */
 
 button,
-html input[type="button"], /* 1 */
+html input[type="button"],
+/* 1 */
+
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
-  cursor: pointer; /* 3 */
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
 }
 
 /**
@@ -333,8 +345,10 @@ input {
 
 input[type="checkbox"],
 input[type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -354,8 +368,10 @@ input[type="number"]::-webkit-outer-spin-button {
  */
 
 input[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  box-sizing: content-box; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
 }
 
 /**
@@ -385,8 +401,10 @@ fieldset {
  */
 
 legend {
-  border: 0; /* 1 */
-  padding: 0; /* 2 */
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -428,7 +446,8 @@ th {
 */
 
 * {
-  box-sizing: border-box;;
+  box-sizing: border-box;
+  ;
 }
 
 html {
@@ -439,7 +458,7 @@ html {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(/public/img/3.jpg);
+  background-image: url(/public/img/1.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -449,7 +468,7 @@ html {
   color: #333;
 }
 
-.app > h1 {
+.app>h1 {
   color: white;
 }
 
@@ -459,24 +478,25 @@ html {
   border-radius: 5px;
 }
 
-.landing > h1 {
-  color: #B10DC9;
+.landing>h1 {
+  color: #000000;
   font-family: Skia;
   font-weight: normal;
 }
 
-.landing > input, .landing > form > input {
+.landing>input,
+.landing>form>input {
   width: 100%;
   padding: 10px;
   border-radius: 4px;
 }
 
-.landing > form {
+.landing>form {
   width: 100%;
   min-width: 300px;
 }
 
-.landing > a {
+.landing>a {
   margin-top: 15px;
   padding: 10px 40px;
   background-color: #333;
@@ -487,17 +507,19 @@ html {
   border-radius: 4px;
 }
 
-.landing > a:hover, .landing > a:focus {
+.landing>a:hover,
+.landing>a:focus {
   background-color: #666;
 }
 
-.landing > a:active {
+.landing>a:active {
   background-color: #fafafa;
   color: #333;
   border-color: #333;
 }
 
-.details, .search {
+.details,
+.search {
   position: absolute;
   top: 15px;
   left: 15px;
@@ -510,7 +532,7 @@ html {
   min-width: 1400px;
 }
 
-.search > div {
+.search>div {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -532,7 +554,6 @@ pre {
 //   color: #333;
 //   text-decoration: none;
 // }
-
 // .search > div > a {
 //   width: 100%;
 //   padding-bottom: 70%;
@@ -542,7 +563,6 @@ pre {
 //   border: none;
 //   border-radius: inherit;
 // }
-
 // .show-card {
 //   float: left;
 //   margin-right: 2%;
@@ -555,41 +575,35 @@ pre {
 //   overflow: hidden;
 //   margin-bottom: 2%;
 // }
-
 // .show-card:nth-child(3n), .search > div > a:nth-child(3n) > .show-card {
 //   margin-right: 0;
 // }
-
 // .show-card > img {
 //   width: 46%;
 //   float: left;
 // }
-
 // .show-card > div{
 //   display: block;
 //   float: right;
 //   width: 52%;
 //   overflow-y: scroll;
 // }
-
 // .show-card > div > h3 {
 //   margin-top: 0;
 //   margin-bottom: 5px;
 // }
-
 // .show-card > div > h4 {
 //   margin-top: 0;
 //   margin-bottom: 5px;
 //   color: #666;
 //   font-size: 13px;
 // }
-
 // .show-card > div > p {
 //   margin: 0;
 //   font-size: 13px;
 }
 
-.search > header + div {
+.search>header+div {
   margin-top: 25px;
 }
 
@@ -608,36 +622,36 @@ header {
   padding: 8px 30px;
 }
 
-header > h1 {
+header>h1 {
   font-family: Skia;
   font-weight: normal;
   color: #B10DC9;
   margin: 0;
 }
 
-header > h1 > a {
+header>h1>a {
   color: #B10DC9;
   text-decoration: none;
 }
 
-header > h2 {
+header>h2 {
   font-weight: normal;
   margin: 0;
 }
 
-header > h2 > a {
+header>h2>a {
   color: #aaa;
   text-decoration: none;
 }
 
-.details > div {
+.details>div {
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
   position: relative;
 }
 
-.details > div > iframe {
+.details>div>iframe {
   position: absolute;
   top: 0;
   left: 0;
@@ -645,7 +659,7 @@ header > h2 > a {
   height: 100%;
 }
 
-header > input {
+header>input {
   min-width: 250px;
   max-width: 350px;
   width: 33%;
@@ -654,40 +668,55 @@ header > input {
   border-radius: 4px;
 }
 
-.details > section > img, .details > section > h3 {
+.details>section>img,
+.details>section>h3 {
   width: 8%;
 }
 
-.details > section > img.spinner {
+.details>section>img.spinner {
   -webkit-animation: spin 4s infinite linear;
   -moz-animation: spin 4s infinite linear;
   animation: spin 4s infinite linear;
 }
 
 @-moz-keyframes spin {
-    from { -moz-transform: rotate(0deg); }
-    to { -moz-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-    from { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(360deg); }
-}
-@keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
 }
 
-.details > section > * {
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.details>section>* {
   margin: 0 1%;
 }
 
-.details > section {
+.details>section {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 25px;
 }
 
-.details > header + section {
+.details>header+section {
   margin-top: 25px;
 }
